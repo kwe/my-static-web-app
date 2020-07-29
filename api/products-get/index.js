@@ -1,5 +1,5 @@
 const data = require("../shared/product-data");
-
+//comment
 module.exports = async function (context, req) {
   try {
     const products = data.getProducts();
